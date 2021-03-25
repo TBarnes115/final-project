@@ -1,11 +1,10 @@
 body{
-    background-color: rgb(202, 93, 79);
-    margin: 0;
+    background-color: rgb(6, 81, 147);
+    margin: 150;
 }
 
 .headerdiv{
     height: 100px;
-    background-color: rgb(192, 118, 33);
     padding-top: 30px;
     
 
@@ -13,35 +12,45 @@ body{
     top: 0px;
 }
 
+a {
+    text-decoration:none;
+}
+
 a:link{
-    color: rgb(202, 93, 79);
+    color: rgb(68, 68, 68);
 }
 
 a:visited{
-    color: rgb(82, 51, 27);
+    color: rgb(255, 195, 195);
 }
 
 a:hover{
-    color: rgb(255, 128, 128);
+    color: rgb(0, 20, 85);
+    text-shadow: darkblue 5px 5px;
 }
 
 a:active {
     color: rgb(169, 191, 255);
 }
 
-.navdiv{
+.navbar{
     text-align: center;
+}
+
+.nav-links{
     height: 100px;
-    background-color: rgb(216, 156, 106);
-    margin-top: ;
+    /* margin-top: ; */
     margin: 10px;
     padding-top: 25px;
 }
 
 .header-text{
     text-align: center;
-    text-shadow: -5px -5px rgb(185, 152, 61);
     margin: 0;
+    font-family: 'Chango', cursive;
+    color:  rgb(39, 9, 9);;
+
+     
 }
 
 
@@ -55,17 +64,15 @@ a:active {
 
 .section{
     height: 400px;
-    background-color: rgb(131, 104, 46);
+
 }
 
 .article{
     height: 400px;
-    background-color: rgb(172, 124, 61);
 }
 
 .aside{
     height: 1600px;
-    background-color: rgb(182, 127, 65);
 }
 
 img{
@@ -76,6 +83,5 @@ img{
 
 .footer{
     height: 100px;
-    background-color: rgb(238, 162, 100);
     clear: both;
 }
